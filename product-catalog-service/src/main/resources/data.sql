@@ -37,8 +37,7 @@ INSERT INTO products (name, description, price, inventory, category_id, is_activ
 -- Inactive Products
 ('Vintage Camera', 'Classic film camera from the 80s', 149.99, 5, 1, FALSE);
 
-
 INSERT INTO Users (id, username, password, role) VALUES
-(1, 'admin', '$2a$10$D9aBcihyKY8FjN8i/HFv5OCGug/GxQYJMRzXIGTeWjOIjIV1KjSYy', 'ADMIN'),
-(2, 'user1', '$2a$10$7.r3aCuAZsX46zv4M5CFOOS8tx9HdaGn0JjKxlYpgRXXzhnjeMyE6', 'USER'),
-(3, 'user2', '$2a$10$1RlJKnY.GBz9YQF4OlSYsOFpswaSLE03VgXilV6k7BN24E6gxrsbO', 'USER');
+(1, 'admin', 'admin123', 'ADMIN'),
+(2, 'user1', 'user123', 'USER'),
+(3, 'user2', 'user123', 'USER');
